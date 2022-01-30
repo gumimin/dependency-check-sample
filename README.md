@@ -99,6 +99,7 @@ BUILD SUCCESSFUL in 6s
 9つの脆弱性が含まれていることを示している
 
 > log4j-api-2.0.jar (pkg:maven/org.apache.logging.log4j/log4j-api@2.0, cpe:2.3:a:apache:log4j:2.0:*:*:*:*:*:*:*) : CVE-2017-5645, CVE-2020-9488
+
 > log4j-core-2.0.jar (pkg:maven/org.apache.logging.log4j/log4j-core@2.0, cpe:2.3:a:apache:log4j:2.0:*:*:*:*:*:*:*) : CVE-2017-5645, CVE-2020-9488, CVE-2021-44228, CVE-2021-44832, CVE-2021-45046, CVE-2021-45105, CWE-502: Deserialization of Untrusted Data
 
 dependencyごとにどういった脆弱性(CVE)があるかを示している  
