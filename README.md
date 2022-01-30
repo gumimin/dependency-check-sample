@@ -149,3 +149,9 @@ dependencyCheckAnalyzeタスクを実行するうえで重要な設定値とし�
 
 OWASP Dependency CheckはNVDを使用しており、そのデータをダウンロードする必要があるが、ダウンロードに10分ほど時間がかかる（ダウンロードが完了している状態であれば脆弱性スキャン自体は数秒で終わる）  
 仮にCIなどで脆弱性チェックをするのであれば、1日1回などの定期バッチでNVDデータをアップデートしておくなどの方法をおすすめする
+
+## CI連携 (GitHub Actions)
+[dependency-check.yml](.github/workflows/dependency-check.yml)を参照  
+実行結果は以下の通り
+
+![](images/4.png)
